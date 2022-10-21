@@ -14,8 +14,10 @@
         android:theme="@style/Theme.Calendar"
         tools:targetApi="31">
         <activity
-            android:name=".NewContactActivty"
-            android:exported="false" />
+            android:name=".ui.NewContactActivty"
+            android:exported="false"
+            android:parentActivityName=".ui.MainActivity"/>
+
         <activity
             android:name=".ui.MainActivity"
             android:exported="true">

@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Calendar</string>
+    <string name="name">Nome</string>
+    <string name="phone">Telefone</string>
+    <string name="mail">Email</string>
+    <string name="birth_date">Data de nascimento</string>
+    <string name="new_contact">Novo contato</string>
+    <string name="save">Salvar</string>
+    <string name="my_list_contact">Minha Lista de Contatos</string>
+    <string name="contact_name">Nome do Contato</string>
+    <string name="contact_email">Email do contato</string>
+    <string name="contact_telephone">Telefone do contato</string>
+
 </resources>

@@ -7,12 +7,10 @@ import androidx.room.RoomDatabase
 import br.senai.sp.jandira.calendar.model.Contact
 
 // Essa classe vai permitir que o DAO entre em contato com o db
-@Database(entities = [Contact :: class] , version = 1)
-abstract class ContactDb {
-
+@Database(entities = [Contact::class] , version = 1)
     abstract  class ContactDb : RoomDatabase(){
 
-       abstract  fun contactDAO () : ContactDAO
+       abstract fun contactDAO () : ContactDAO
 
        companion object {
            private lateinit var instance: ContactDb
@@ -26,4 +24,3 @@ abstract class ContactDb {
            }
        }
     }
-}
