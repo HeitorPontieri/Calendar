@@ -15,8 +15,8 @@ class Contact {
     var telefone = ""
     var email = ""
 
-    @ColumnInfo(name = "data_nascimento") var dataNascimento : LocalDate? = null
+    @ColumnInfo(name = "data_nascimento") var dataNascimento = ""
 
-    var foto :Drawable? = null
+    var foto  = ""
 
 }
